@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Simulateur simulateur = new Simulateur();
+            Console.WriteLine("Bienvenue à la simulation de votre futur carrière");
+            simulateur.DemarerSimulation();
         }
     }
 }
